@@ -6,15 +6,7 @@ module.exports = {
       safelist: [],
     },
   },
-  theme: {
-    extend: {
-      colors: {
-        change: "black",
-        pinkred: "#FF6583",
-        plurple: "#6C63FF",
-      },
-    },
-  },
+  theme: {},
   variants: {},
   plugins: [],
 };
