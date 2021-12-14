@@ -1,2 +1,3 @@
 /docs/* https://workflowly-docs.netlify.app/:splat 200
 /product/classic-netlify-sweatshirt https://www.moneytronicswag.com/.netlify/functions/___netlify-handler/product/classic-netlify-sweatshirt 200!
+/* https://www.moneytronicswag.com/:splat 200
