@@ -1,3 +1,4 @@
 /docs/* https://workflowly-docs.netlify.app/:splat 200
-/product/classic-netlify-sweatshirt https://next-netlifyswag.netlify.app/.netlify/builder/___netlify-odb-handler/product/classic-netlify-sweatshirt 200!
-/* https://next-netlifyswag.netlify.app/:splat 200
+/contact/* 200! Role=admin
+/contact/ / 401
+
