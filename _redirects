@@ -1,4 +1,1 @@
 /docs/* https://workflowly-docs.netlify.app/:splat 200
-/contact/* 200! Role=admin
-/contact/ / 401
-
