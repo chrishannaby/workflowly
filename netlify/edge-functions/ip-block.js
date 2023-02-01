@@ -12,7 +12,7 @@ export default async (_, context) => {
     context.log(error);
     return new Response(error, {
       headers: { "content-type": "text/html" },
-      status: 451,
+      status: 403,
     });
   }
 };
