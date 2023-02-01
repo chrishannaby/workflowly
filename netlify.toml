@@ -1,3 +1,7 @@
-#[[edge_functions]]
-#  function = "ip-block"
-#  path = "/*"
+[[context.branch-deploy.edge_functions]]
+  function = "ip-block"
+  path = "/*"
+
+[[context.deploy-preview.edge_functions]]
+  function = "ip-block"
+  path = "/*"
