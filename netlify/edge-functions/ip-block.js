@@ -10,7 +10,7 @@ export default async (_, context) => {
   } else {
     const error = `Access Denied - IP Address ${ip} is not in allow list`;
     context.log(error);
-    return new Response(errors, {
+    return new Response(error, {
       headers: { "content-type": "text/html" },
       status: 451,
     });
